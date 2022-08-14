@@ -130,6 +130,12 @@ p {
   max-width: 100%;
   height: auto;
 }
+.contact h3 {
+  text-align: left;
+}
+.contact p {
+  padding: 0;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -138,11 +144,14 @@ p {
 
   h2 {
     font-size: 30px;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   p {
     text-align: center;
+  }
+  .contact p {
+    text-align: left;
   }
 
   .project-link {
